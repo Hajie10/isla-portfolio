@@ -1,0 +1,27 @@
+
+.navbar{ background-color: pink;
+			over-flow: hidden;
+			display: flex;
+			padding: 20px;
+			align-items: center;
+			
+		}
+		
+.navbar ul,nav{ list-style: none;
+			margin: 0px;
+			padding: 0px;
+			display: flex;
+			border: 5px;
+			align-items: center;}  
+
+
+.navbar ul li{ margin-left: 20px;
+			align-items: center;}
+
+.navbar ul li a {	text-decoration: none;
+					color: black;
+					font-weight: 700px;
+					transition: color: 0.3s;
+					align-items: center;}
+
+.navbar ul li a:hover {color: lightgreen;}
