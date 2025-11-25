@@ -1,27 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-.navbar{ background-color: pink;
-			over-flow: hidden;
-			display: flex;
-			padding: 20px;
-			align-items: center;
-			
-		}
-		
-.navbar ul,nav{ list-style: none;
-			margin: 0px;
-			padding: 0px;
-			display: flex;
-			border: 5px;
-			align-items: center;}  
+body {
+  background-color: beige;
+  color: #333;
+  line-height: 1.6;
+}
 
 
-.navbar ul li{ margin-left: 20px;
-			align-items: center;}
+header {
+  background: pink;
+  color: black;
+  padding: 15px 0;
+  text-align: center;
+}
 
-.navbar ul li a {	text-decoration: none;
-					color: black;
-					font-weight: 700px;
-					transition: color: 0.3s;
-					align-items: center;}
+header h1 {
+  margin-bottom: 10px;
+}
 
-.navbar ul li a:hover {color: lightgreen;}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.introduction{
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.roles {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+
+#about-me{
+  background: lightpink;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#projects {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: lightpink;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card h4 {
+  margin-bottom: 10px;
+}
+
+button {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: green;
+}
+
+footer {
+  background: pink;
+  color: black;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
